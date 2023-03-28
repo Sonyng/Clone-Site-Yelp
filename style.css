@@ -1,0 +1,283 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container-TOP{
+    width: 100%;
+    height: 520px;
+    background-size: cover ;
+    background: url(/IMG/coffee-background-with-realistic-cup-of-coffee-vector.jpg);
+}
+
+.container-central{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 520px;
+    align-items: center;
+}
+
+
+
+#text-TOP{
+    position: absolute;
+    top: 31%;
+    left: 20%;
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -0.4px;
+    line-height: 56px
+}
+
+
+#TEXTDQ{
+    position: absolute;
+    display:flex;
+    top: 85%;
+    left: 20%;
+    height: 100px;
+    width: 200px;
+    color: white;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: transparent;
+    margin-top: 0;
+}
+
+.logo{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+.logo_IMG{
+    width: 100px;
+    background: transparent;
+}
+
+.divBusca{
+    display: flex;
+    height: 60px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;  
+
+}
+
+#search_Imput{
+    width: 400px;
+    height: 50px;
+    margin: -5px;
+    border-radius: 5px;
+}
+
+#search_Imput_Location{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border-right: none;
+    margin: -1px;
+
+}
+
+.BTN_Busca{
+    margin: -3px;
+    cursor: pointer;
+    border: #fff;
+    width: 55PX;
+    height: 48px;
+    background-color: rgba(224,7,7,1);
+    border-radius: 5px;
+    border-left: none #ffff;
+    
+}
+
+.BTN_para_empresas{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: rgba(255,255,255,1);
+    text-align: left;
+}
+
+
+.Order_P{
+    padding: -10px;
+    margin: 5px;
+    display: flex;
+    width: 600px;
+    height: 100px;
+    color: rgba(255,255,255,1);
+    font: inherit;
+}
+
+
+#BTN_para_empresas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 36px;
+}
+#BTN_para_empresas:hover{
+    background-color: #ffffff4d;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#BTN_avaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    height: 36px;
+}
+
+#BTN_avaliacao:hover{
+    background-color: #ffffff4d;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#BTN_ACESSAR{
+    width: 100px;
+    height: 40px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    background: transparent;
+    color:#ffffff;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: #fff;
+}
+
+#BTN_ACESSAR:hover{
+border-style: double;
+background-color: rgb(70, 70, 63);
+cursor: pointer;
+}
+
+#BTN_CADASTRO{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    cursor: pointer;
+    appearance: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    color:#fff;
+    
+}
+
+
+.Nav2{
+    width: 700px;
+    height: 50px;
+}
+
+.Nav2{
+    left: 20%;
+    top: 13%;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: rgba(255,255,255,1);
+}
+
+.Border_top{
+    display: flex;
+    width: 100%;
+    height: 700px;
+
+}
+
+.Page_Wapper{
+    width: 90%;
+    height: 700px;
+}
+
+
+.Name_ATT{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color: rgba(45,46,47,1);
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.Posts{
+    display: flex;
+    width: 1175px;
+    height: 400px;
+    padding: 0px;
+}
+
+.Post_1{
+    cursor: pointer;
+}
+
+
+.Post_2{
+    cursor: pointer;
+}
+
+
+.Post_3{
+    cursor: pointer;
+}
+
+.Posts_Inferior{
+    display: flex;
+    width: 1175px;
+    height: 400px;
+    padding: 0px;
+}
+
+.post_4{
+    cursor: pointer;
+    
+}
+
+.post_5{
+    cursor: pointer;
+    
+}
+.post_6{
+    cursor: pointer;
+    
+}
